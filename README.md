@@ -1,5 +1,5 @@
 # ikb-overlay
-The things I use, but no one maintains ebuilds for.
+Personal Gentoo overlay.
 
 ## Installation
 1. `eselect repository add ikb-overlay git https://github.com/ivan-boikov/ikb-overlay.git`
