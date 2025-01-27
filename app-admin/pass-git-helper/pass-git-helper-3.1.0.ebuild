@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517="setuptools"
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{10..12} )
 inherit distutils-r1
 
 DESCRIPTION="Git credential helper for the password manager pass"
@@ -13,7 +13,7 @@ SRC_URI="https://github.com/languitar/pass-git-helper/archive/v${PV}.tar.gz -> $
 
 LICENSE="LGPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 
 RDEPEND="
 	dev-python/pyxdg[${PYTHON_USEDEP}]
