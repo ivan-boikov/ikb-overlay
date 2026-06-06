@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517="setuptools"
-PYTHON_COMPAT=( python3_{6..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1
 
 DESCRIPTION="Git credential helper for the password manager pass"
